@@ -75,7 +75,7 @@ describe('CompletedJobsListener', function () {
     describe('#processCompletedJob', function () {
       var job = {
         type: 'RunModule',
-        id:1,
+        id: 1,
         data: {
           application: {
             _id: 'appId'
@@ -89,7 +89,6 @@ describe('CompletedJobsListener', function () {
         remove: sinon.stub().yields()
       };
       before(function () {
-
         sinon.stub(Model.ExecutionLogEvent.prototype, 'saveAsync').returns(BBPromise.resolve(null));
         sinon.spy(Model, 'ExecutionLogEvent');
         listener.processCompletedJob(job);
