@@ -18,6 +18,7 @@
   "homepage": "https://github.com/hoist/hoist-job-sweeper",
   "devDependencies": {
     "chai": "^1.9.1",
+    "chai-as-promised": "^4.1.1",
     "gulp": "^3.8.8",
     "gulp-istanbul": "^0.3.1",
     "gulp-istanbul-enforcer": "^1.0.3",
@@ -28,5 +29,13 @@
     "run-sequence": "^0.3.7",
     "sinon": "^1.10.3",
     "sinon-chai": "^2.5.0"
+  },
+  "dependencies": {
+    "bluebird": "^2.3.11",
+    "config": "^1.8.1",
+    "hoist-logger": "git://github.com/hoist/hoist-logger",
+    "hoist-model": "git://github.com/hoist/hoist-model",
+    "kue": "^0.8.9",
+    "lodash": "^2.4.1"
   }
 }
