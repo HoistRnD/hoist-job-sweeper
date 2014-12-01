@@ -36,6 +36,7 @@
     "hoist-logger": "git://github.com/hoist/hoist-logger",
     "hoist-model": "git://github.com/hoist/hoist-model",
     "kue": "^0.8.9",
-    "lodash": "^2.4.1"
+    "lodash": "^2.4.1",
+    "moment": "^2.8.4"
   }
 }

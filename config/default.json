@@ -3,6 +3,7 @@
     "mongo": {
       "db": "mongodb://localhost/hoist-default"
     },
+    "debug":true,
     "kue": {
       "host": "localhost"
     }
