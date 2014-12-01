@@ -75,6 +75,7 @@ describe('CompletedJobsListener', function () {
     describe('#processCompletedJob', function () {
       var job = {
         type: 'RunModule',
+        id:1,
         data: {
           application: {
             _id: 'appId'
@@ -110,7 +111,7 @@ describe('CompletedJobsListener', function () {
             correlationId: "cid",
             environment: "live",
             eventId: "eventId",
-            message: "Module execution job complete for moduleName",
+            message: "Module execution job complete for moduleName job #:1",
             moduleName: "moduleName"
           });
       });
