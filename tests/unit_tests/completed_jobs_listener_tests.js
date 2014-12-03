@@ -109,6 +109,7 @@ describe('CompletedJobsListener', function () {
             application: "appId",
             correlationId: "cid",
             environment: "live",
+            type:'MDL',
             eventId: "eventId",
             message: "Module execution job complete for moduleName job #:1",
             moduleName: "moduleName"
